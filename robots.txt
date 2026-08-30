@@ -1,0 +1,27 @@
+# robots.txt - SEO Configuration for Search Engines
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Avoid crawling certain file types
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.pdf$
+
+# Sitemap location (update with your Vercel URL)
+Sitemap: https://git-branch-27-a.vercel.app/sitemap.xml
