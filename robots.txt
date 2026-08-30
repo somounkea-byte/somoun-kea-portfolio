@@ -24,4 +24,4 @@ Disallow: /*.xml$
 Disallow: /*.pdf$
 
 # Sitemap location (update with your Vercel URL)
-Sitemap: https://git-branch-27-a.vercel.app/sitemap.xml
+Sitemap: https://somoun-kea-portfolio.vercel.app/sitemap.xml
